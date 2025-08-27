@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerenciamento de Estoque - Locadora</title>
+</head>
+<body>
+    <h1>📽️ Locadora de Filmes - Gerenciamento de Estoque</h1>
+
+    <!-- Formulário para adicionar filmes -->
+    <section>
+        <h2>Adicionar Filme</h2>
+        <form id="form-filme">
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" name="titulo" required>
+
+            <label for="genero">Gênero:</label>
+            <input type="text" id="genero" name="genero" required>
+
+            <label for="quantidade">Quantidade em estoque:</label>
+            <input type="number" id="quantidade" name="quantidade" min="1" required>
+
+            <button type="submit">Adicionar</button>
+        </form>
+
+    </section>
+
+    <!-- Tabela de filmes -->
+    <section>
+        <h2>Estoque de Filmes</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Gênero</th>
+                    <th>Quantidade</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="lista-filmes">
+                <!-- Os filmes cadastrados vão aparecer aqui -->
+                <tr>
+                    <td>Exemplo: Matrix</td>
+                    <td>Ficção Científica</td>
+                    <td>5</td>
+                    <td>Editar | Remover</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
