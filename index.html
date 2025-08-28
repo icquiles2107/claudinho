@@ -1,68 +1,271 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Locadora Online - Cliente</title>
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Locadora Online - Cliente</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yGkY3b3E2z+0K4K2J3A8qJ6K6b1fG1Z5B7J8z1b2f5G5+G5K4J4P4S4W4E3+w4W4S4B3A"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style_index.css" />
+  </head>
+  <body>
     <header>
-    
-        <h1>Locadora Online</h1>
-        <a href="./carrinho.html">🛒 Carrinho</a>
-        
-    <header
+      <h1>Locadora Online</h1>
+      <a href="./carrinho.html">🛒 Carrinho</a>
+    </header>
 
-  <main>
-    
-    <section>
-      <h2>Mais Populares</h2>
-      <ul>
-        <li>"Interstellar" — R$12 <button>Adicionar ao carrinho</button></li>
-        <li>"Matrix" — R$10 <button>Adicionar ao carrinho</button></li>
-        <li>"Batman: O Cavaleiro das Trevas" — R$15 <button>Adicionar ao carrinho</button></li>
-        <li>"American Psycho" — R$11 <button>Adicionar ao carrinho</button></li>
-        <li>"Gladiador" — R$13 <button>Adicionar ao carrinho</button></li>
-        <li>"Superman" — R$14 <button>Adicionar ao carrinho</button></li>
-        <li>"Avatar" — R$16 <button>Adicionar ao carrinho</button></li>
-        <li>"Liga da Justiça" — R$12 <button>Adicionar ao carrinho</button></li>
-      </ul>
-    </section>
+    <main>
+      <section>
+        <h2>Mais Populares</h2>
+        <div class="movie-list">
+          <div class="movie-card">
+            <img
+              src="https://placehold.co/600x400"
+              alt="Pôster de Interstellar"
+            />
+            <div class="movie-info">
+              <h3>Interstellar</h3>
+              <p class="price">R$12</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="https://placehold.co/600x400" alt="Pôster de Matrix" />
+            <div class="movie-info">
+              <h3>Matrix</h3>
+              <p class="price">R$10</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="https://placehold.co/600x400" alt="Pôster de Batman" />
+            <div class="movie-info">
+              <h3>Batman: O Cavaleiro das Trevas</h3>
+              <p class="price">R$15</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img
+              src="https://placehold.co/600x400"
+              alt="Pôster de American Psycho"
+            />
+            <div class="movie-info">
+              <h3>American Psycho</h3>
+              <p class="price">R$11</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="https://placehold.co/600x400" alt="Pôster de Gladiador" />
+            <div class="movie-info">
+              <h3>Gladiador</h3>
+              <p class="price">R$13</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="https://placehold.co/600x400" alt="Pôster de Superman" />
+            <div class="movie-info">
+              <h3>Superman</h3>
+              <p class="price">R$14</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="https://placehold.co/600x400" alt="Pôster de Avatar" />
+            <div class="movie-info">
+              <h3>Avatar</h3>
+              <p class="price">R$16</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img
+              src="https://placehold.co/600x400"
+              alt="Pôster de Liga da Justiça"
+            />
+            <div class="movie-info">
+              <h3>Liga da Justiça</h3>
+              <p class="price">R$12</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <section>
-      <h2>Lançamentos</h2>
-      <ul>
-        <li>"Duna 2" — R$20 <button>Adicionar ao carrinho</button></li>
-        <li>"Oppenheimer" — R$18 <button>Adicionar ao carrinho</button></li>
-        <li>"Barbie" — R$17 <button>Adicionar ao carrinho</button></li>
-        <li>"Homem-Aranha: Através do Aranhaverso" — R$19 <button>Adicionar ao carrinho</button></li>
-        <li>"Avatar 2" — R$21 <button>Adicionar ao carrinho</button></li>
-        <li>"Viúva Negra" — R$18 <button>Adicionar ao carrinho</button></li>
-        <li>"Top Gun: Maverick" — R$20 <button>Adicionar ao carrinho</button></li>
-        <li>"Thor: Amor e Trovão" — R$19 <button>Adicionar ao carrinho</button></li>
-      </ul>
-    </section>
+      <section>
+        <h2>Lançamentos</h2>
+        <div class="movie-list">
+          <div class="movie-card">
+            <img src="https://placehold.co/600x400" alt="Pôster de Duna 2" />
+            <div class="movie-info">
+              <h3>Duna 2</h3>
+              <p class="price">R$20</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img
+              src="https://placehold.co/600x400"
+              alt="Pôster de Oppenheimer"
+            />
+            <div class="movie-info">
+              <h3>Oppenheimer</h3>
+              <p class="price">R$18</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="https://placehold.co/600x400" alt="Pôster de Barbie" />
+            <div class="movie-info">
+              <h3>Barbie</h3>
+              <p class="price">R$17</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img
+              src="https://placehold.co/600x400"
+              alt="Pôster de Homem-Aranha"
+            />
+            <div class="movie-info">
+              <h3>Homem-Aranha: Através do Aranhaverso</h3>
+              <p class="price">R$19</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="https://placehold.co/600x400" alt="Pôster de Avatar 2" />
+            <div class="movie-info">
+              <h3>Avatar 2</h3>
+              <p class="price">R$21</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img
+              src="https://placehold.co/600x400"
+              alt="Pôster de Viúva Negra"
+            />
+            <div class="movie-info">
+              <h3>Viúva Negra</h3>
+              <p class="price">R$18</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="https://placehold.co/600x400" alt="Pôster de Top Gun" />
+            <div class="movie-info">
+              <h3>Top Gun: Maverick</h3>
+              <p class="price">R$20</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="https://placehold.co/600x400" alt="Pôster de Thor" />
+            <div class="movie-info">
+              <h3>Thor: Amor e Trovão</h3>
+              <p class="price">R$19</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <section>
-      <h2>Seção Econômica</h2>
-      <ul>
-        <li>"Shrek" — R$5 <button>Adicionar ao carrinho</button></li>
-        <li>"Toy Story" — R$6 <button>Adicionar ao carrinho</button></li>
-        <li>"Meu Malvado Favorito" — R$5 <button>Adicionar ao carrinho</button></li>
-        <li>"Kung Fu Panda" — R$6 <button>Adicionar ao carrinho</button></li>
-        <li>"Procurando Nemo" — R$5 <button>Adicionar ao carrinho</button></li>
-        <li>"Carros" — R$6 <button>Adicionar ao carrinho</button></li>
-        <li>"A Era do Gelo" — R$5 <button>Adicionar ao carrinho</button></li>
-        <li>"Monstros S.A." — R$6 <button>Adicionar ao carrinho</button></li>
-      </ul>
-    </section>
+      <section>
+        <h2>Seção Econômica</h2>
+        <div class="movie-list">
+          <div class="movie-card">
+            <img src="https://placehold.co/600x400" alt="Pôster de Shrek" />
+            <div class="movie-info">
+              <h3>Shrek</h3>
+              <p class="price">R$5</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="https://placehold.co/600x400" alt="Pôster de Toy Story" />
+            <div class="movie-info">
+              <h3>Toy Story</h3>
+              <p class="price">R$6</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img
+              src="https://placehold.co/600x400"
+              alt="Pôster de Meu Malvado Favorito"
+            />
+            <div class="movie-info">
+              <h3>Meu Malvado Favorito</h3>
+              <p class="price">R$5</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img
+              src="https://placehold.co/600x400"
+              alt="Pôster de Kung Fu Panda"
+            />
+            <div class="movie-info">
+              <h3>Kung Fu Panda</h3>
+              <p class="price">R$6</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img
+              src="https://placehold.co/600x400"
+              alt="Pôster de Procurando Nemo"
+            />
+            <div class="movie-info">
+              <h3>Procurando Nemo</h3>
+              <p class="price">R$5</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img src="https://placehold.co/600x400" alt="Pôster de Carros" />
+            <div class="movie-info">
+              <h3>Carros</h3>
+              <p class="price">R$6</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img
+              src="https://placehold.co/600x400"
+              alt="Pôster de A Era do Gelo"
+            />
+            <div class="movie-info">
+              <h3>A Era do Gelo</h3>
+              <p class="price">R$5</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+          <div class="movie-card">
+            <img
+              src="https://placehold.co/600x400"
+              alt="Pôster de Monstros S.A."
+            />
+            <div class="movie-info">
+              <h3>Monstros S.A.</h3>
+              <p class="price">R$6</p>
+              <button>Adicionar</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-</main>
-
-  <footer>
-    <p>Locadora Online - Todos os direitos reservados</p>
-  </footer>
-
-</body>
+    <footer>
+      <p>Locadora Online - Todos os direitos reservados</p>
+    </footer>
+  </body>
 </html>
